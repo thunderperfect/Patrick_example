@@ -1,0 +1,47 @@
+<style>
+    html {
+      font-family: 'verdana';
+      font-size: 14px;
+    }
+    .card {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid silver;
+      margin-bottom: 10px;
+      padding: 2px;
+      border-radius: 4px;
+    }
+
+    .header {
+  line-height: 3px;
+  border-radius: 4px;
+      background: silver;
+      color: #000;
+      border: 1px solid #ccc;
+      padding-left:10px;
+      text-align: left;
+    }
+
+    .container {
+      padding: 0px 5px;
+    }
+</style>
+
+<div class="card">
+  <div class="header">
+    <p>Input</p>
+  </div>
+  <div class="container" style="padding: 10px">
+    <input id="inpt" maxlength="1" />
+    <button id="btn">go</button>
+  </div>
+</div>
+<div class="card">
+  <div class="header">
+    <p>Result</p>
+  </div>
+  <div class="container">
+    <p id="result">Enter something above</p>
+  </div>
+</div>
