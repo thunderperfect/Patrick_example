@@ -38,7 +38,7 @@ const processInput = (inputChar) => {
   const idxOfChar = chars.indexOf(inputChar);
 
   switch (true) {
-    case idxOfChar > -1 && idxOfChar < 9:
+    case idxOfChar > -1 && idxOfChar <= 9:
       result = `${inputChar} is a number`;
       break;
     case idxOfChar > 9:
